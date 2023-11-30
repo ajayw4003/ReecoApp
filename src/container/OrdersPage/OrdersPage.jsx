@@ -17,7 +17,7 @@ const OrdersPage = () => {
   const loading = useSelector(state => state.loading)
   useEffect(() => {
     dispatch(getOrderDetails());
-  }, [])
+  }, [dispatch])
 
   if(loading) {
     return <h2>No Data Found</h2>

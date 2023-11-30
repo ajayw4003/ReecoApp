@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import dummyData from '../dummyData.json'
 import {Table, TableBody, TableCell, TableHead, TableRow, Paper} from '@mui/material';
 import styled from 'styled-components';
 import CheckIcon from '@mui/icons-material/Check';

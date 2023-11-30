@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import dummyData from './dummyData.json'
 

@@ -52,7 +52,7 @@ const IconDiv = styled(ClearIcon)`
 `
 
 const ConfirmPopup = (props) => {
-  const { message, yesHandler, closeHandler, noHanlder, title="Alert" } = props;
+  const { message, yesHandler, closeHandler, title="Alert" } = props;
   function confirm() {
     yesHandler()
   }
